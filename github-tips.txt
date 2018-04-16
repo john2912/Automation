@@ -1,0 +1,20 @@
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$ git init
+Initialized empty Git repository in E:/GIT_HUB_SVN/Projects/.git/
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$ git remote add origin https://github.com/john2912/Automation.git
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+Unpacking objects: 100% (3/3), done.
+From https://github.com/john2912/Automation
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$
+
+
