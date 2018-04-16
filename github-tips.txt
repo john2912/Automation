@@ -18,3 +18,35 @@ v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
 $
 
 
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+Unpacking objects: 100% (3/3), done.
+From https://github.com/john2912/Automation
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$ git add github-tips.txt
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$ git commit -m "Initial commit"
+[master 009888e] Initial commit
+ 1 file changed, 20 insertions(+)
+ create mode 100644 github-tips.txt
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 578 bytes | 289.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/john2912/Automation.git
+   167d044..009888e  master -> master
+
+v.johnraj@N7486 MINGW64 /e/GIT_HUB_SVN/Projects (master)
+$
+
