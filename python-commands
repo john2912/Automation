@@ -1,1 +1,14 @@
 All python commands:
+
+
+# path.py
+import os
+
+cwd = os.getcwd()
+print(cwd)
+# To print all the files in current working directory
+for dir_path, dir_names, file_names in os.walk(cwd):
+    for f in file_names:
+        print(f)
+        
+        
